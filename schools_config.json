@@ -1,0 +1,293 @@
+{
+  "target_schools": [
+    {
+      "name": "University of Florida",
+      "roster_url": "https://floridagators.com/sports/mens-swimming-and-diving/roster",
+      "conference": "SEC",
+      "ncaa_ranking": 3,
+      "chabad": "strong",
+      "engineering": "excellent",
+      "weather": "warm",
+      "priority": 1,
+      "notes": "Current Olympic swimmers: Josh Liendo, Ahmed Jaouadi"
+    },
+    {
+      "name": "University of Texas",
+      "roster_url": "https://texassports.com/sports/mens-swimming-and-diving/roster",
+      "conference": "SEC",
+      "ncaa_ranking": 1,
+      "chabad": "strong",
+      "engineering": "elite",
+      "weather": "warm",
+      "priority": 2
+    },
+    {
+      "name": "University of California Berkeley",
+      "roster_url": "https://calbears.com/sports/mens-swimming-and-diving/roster",
+      "conference": "ACC",
+      "ncaa_ranking": 2,
+      "chabad": "strong",
+      "engineering": "elite",
+      "weather": "moderate",
+      "priority": 3
+    },
+    {
+      "name": "Stanford University",
+      "roster_url": "https://gostanford.com/sports/mens-swimming-and-diving/roster",
+      "conference": "ACC",
+      "ncaa_ranking": 4,
+      "chabad": "strong",
+      "engineering": "elite",
+      "weather": "moderate",
+      "priority": 4
+    },
+    {
+      "name": "Arizona State University",
+      "roster_url": "https://thesundevils.com/sports/mens-swimming-and-diving/roster",
+      "conference": "Big 12",
+      "ncaa_ranking": 5,
+      "chabad": "moderate",
+      "engineering": "good",
+      "weather": "hot",
+      "priority": 5
+    },
+    {
+      "name": "University of Southern California",
+      "roster_url": "https://usctrojans.com/sports/mens-swimming-and-diving/roster",
+      "conference": "Big Ten",
+      "ncaa_ranking": 8,
+      "chabad": "strong",
+      "engineering": "excellent",
+      "weather": "warm",
+      "priority": 6
+    },
+    {
+      "name": "University of Georgia",
+      "roster_url": "https://georgiadogs.com/sports/mens-swimming-and-diving/roster",
+      "conference": "SEC",
+      "ncaa_ranking": 6,
+      "chabad": "moderate",
+      "engineering": "good",
+      "weather": "warm",
+      "priority": 7
+    },
+    {
+      "name": "Indiana University",
+      "roster_url": "https://iuhoosiers.com/sports/mens-swimming-and-diving/roster",
+      "conference": "Big Ten",
+      "ncaa_ranking": 7,
+      "chabad": "moderate",
+      "engineering": "good",
+      "weather": "cold",
+      "priority": 8
+    },
+    {
+      "name": "University of Tennessee",
+      "roster_url": "https://utsports.com/sports/mens-swimming-and-diving/roster",
+      "conference": "SEC",
+      "ncaa_ranking": 9,
+      "chabad": "weak",
+      "engineering": "good",
+      "weather": "moderate",
+      "priority": 9
+    },
+    {
+      "name": "Auburn University",
+      "roster_url": "https://auburntigers.com/sports/mens-swimming-and-diving/roster",
+      "conference": "SEC",
+      "ncaa_ranking": 10,
+      "chabad": "weak",
+      "engineering": "good",
+      "weather": "warm",
+      "priority": 10
+    },
+    {
+      "name": "University of Alabama",
+      "roster_url": "https://rolltide.com/sports/mens-swimming-and-diving/roster",
+      "conference": "SEC",
+      "ncaa_ranking": 12,
+      "chabad": "weak",
+      "engineering": "good",
+      "weather": "warm",
+      "priority": 11
+    },
+    {
+      "name": "Ohio State University",
+      "roster_url": "https://ohiostatebuckeyes.com/sports/mens-swimming-and-diving/roster",
+      "conference": "Big Ten",
+      "ncaa_ranking": 13,
+      "chabad": "moderate",
+      "engineering": "excellent",
+      "weather": "cold",
+      "priority": 12
+    },
+    {
+      "name": "University of Michigan",
+      "roster_url": "https://mgoblue.com/sports/mens-swimming-and-diving/roster",
+      "conference": "Big Ten",
+      "ncaa_ranking": 15,
+      "chabad": "strong",
+      "engineering": "elite",
+      "weather": "cold",
+      "priority": 13
+    },
+    {
+      "name": "Virginia Tech",
+      "roster_url": "https://hokiesports.com/sports/mens-swimming-and-diving/roster",
+      "conference": "ACC",
+      "ncaa_ranking": 16,
+      "chabad": "weak",
+      "engineering": "excellent",
+      "weather": "moderate",
+      "priority": 14
+    },
+    {
+      "name": "NC State University",
+      "roster_url": "https://gopack.com/sports/mens-swimming-and-diving/roster",
+      "conference": "ACC",
+      "ncaa_ranking": 17,
+      "chabad": "moderate",
+      "engineering": "excellent",
+      "weather": "moderate",
+      "priority": 15
+    },
+    {
+      "name": "University of Louisville",
+      "roster_url": "https://gocards.com/sports/mens-swimming-and-diving/roster",
+      "conference": "ACC",
+      "ncaa_ranking": 18,
+      "chabad": "weak",
+      "engineering": "good",
+      "weather": "moderate",
+      "priority": 16
+    },
+    {
+      "name": "University of Minnesota",
+      "roster_url": "https://gophersports.com/sports/mens-swimming-and-diving/roster",
+      "conference": "Big Ten",
+      "ncaa_ranking": 20,
+      "chabad": "moderate",
+      "engineering": "excellent",
+      "weather": "cold",
+      "priority": 17
+    },
+    {
+      "name": "University of Arizona",
+      "roster_url": "https://arizonawildcats.com/sports/mens-swimming-and-diving/roster",
+      "conference": "Big 12",
+      "ncaa_ranking": 22,
+      "chabad": "moderate",
+      "engineering": "good",
+      "weather": "hot",
+      "priority": 18
+    },
+    {
+      "name": "University of Notre Dame",
+      "roster_url": "https://und.com/sports/mens-swimming-and-diving/roster",
+      "conference": "ACC",
+      "ncaa_ranking": 25,
+      "chabad": "moderate",
+      "engineering": "excellent",
+      "weather": "cold",
+      "priority": 19
+    },
+    {
+      "name": "Purdue University",
+      "roster_url": "https://purduesports.com/sports/mens-swimming-and-diving/roster",
+      "conference": "Big Ten",
+      "ncaa_ranking": 28,
+      "chabad": "weak",
+      "engineering": "elite",
+      "weather": "cold",
+      "priority": 20
+    },
+    {
+      "name": "University of Wisconsin",
+      "roster_url": "https://uwbadgers.com/sports/mens-swimming-and-diving/roster",
+      "conference": "Big Ten",
+      "ncaa_ranking": 30,
+      "chabad": "moderate",
+      "engineering": "excellent",
+      "weather": "cold",
+      "priority": 21
+    },
+    {
+      "name": "Penn State University",
+      "roster_url": "https://gopsusports.com/sports/mens-swimming-and-diving/roster",
+      "conference": "Big Ten",
+      "ncaa_ranking": 32,
+      "chabad": "moderate",
+      "engineering": "excellent",
+      "weather": "cold",
+      "priority": 22
+    },
+    {
+      "name": "University of Miami",
+      "roster_url": "https://miamihurricanes.com/sports/mens-swimming-and-diving/roster",
+      "conference": "ACC",
+      "ncaa_ranking": 35,
+      "chabad": "strong",
+      "engineering": "good",
+      "weather": "hot",
+      "priority": 23
+    },
+    {
+      "name": "Florida State University",
+      "roster_url": "https://seminoles.com/sports/mens-swimming-and-diving/roster",
+      "conference": "ACC",
+      "ncaa_ranking": 38,
+      "chabad": "moderate",
+      "engineering": "good",
+      "weather": "warm",
+      "priority": 24
+    },
+    {
+      "name": "University of Pittsburgh",
+      "roster_url": "https://pittsburghpanthers.com/sports/mens-swimming-and-diving/roster",
+      "conference": "ACC",
+      "ncaa_ranking": 40,
+      "chabad": "moderate",
+      "engineering": "excellent",
+      "weather": "cold",
+      "priority": 25
+    },
+    {
+      "name": "University of Virginia",
+      "roster_url": "https://virginiasports.com/sports/mens-swimming-and-diving/roster",
+      "conference": "ACC",
+      "ncaa_ranking": 42,
+      "chabad": "moderate",
+      "engineering": "excellent",
+      "weather": "moderate",
+      "priority": 26
+    },
+    {
+      "name": "Northwestern University",
+      "roster_url": "https://nusports.com/sports/mens-swimming-and-diving/roster",
+      "conference": "Big Ten",
+      "ncaa_ranking": 45,
+      "chabad": "strong",
+      "engineering": "elite",
+      "weather": "cold",
+      "priority": 27
+    }
+  ],
+  "analysis_criteria": {
+    "olympic_swimmer_weight": 25,
+    "international_diversity_weight": 2,
+    "height_match_weight": 3,
+    "ncaa_ranking_weight": 10,
+    "chabad_bonus": 5,
+    "engineering_bonus": 5,
+    "weather_bonus": 3
+  },
+  "michael_profile": {
+    "height": "6'4\"",
+    "weight": "210 lbs",
+    "events": ["50 Free", "100 Free", "200 Free", "100 Fly", "100 Back"],
+    "citizenship": ["USA", "Israel"],
+    "graduation": 2027,
+    "location": "Satellite Beach, FL",
+    "priorities": ["Swimming (D1)", "Chabad", "Engineering", "Israeli Connection", "Warm Weather"]
+  }
+}
