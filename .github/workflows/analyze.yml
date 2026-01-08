@@ -1,0 +1,62 @@
+name: Analyze D1 Swimming Schools
+
+on:
+  schedule:
+    - cron: '0 14 * * 1'  # Every Monday at 9 AM EST (14:00 UTC)
+  workflow_dispatch:      # Manual trigger
+    inputs:
+      school_name:
+        description: 'Specific school to analyze (leave empty for all 27)'
+        required: false
+        default: ''
+
+jobs:
+  analyze:
+    name: School Analysis
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install -e .
+      
+      - name: Run school analysis
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "${{ github.event.inputs.school_name }}" ]; then
+            echo "Analyzing all 27 target schools..."
+            python -m d1_analyzer analyze --all
+          else
+            echo "Analyzing ${{ github.event.inputs.school_name }}..."
+            python -m d1_analyzer analyze --school "${{ github.event.inputs.school_name }}"
+          fi
+      
+      - name: Generate reports
+        run: |
+          python -m d1_analyzer generate-reports
+      
+      - name: Upload reports
+        uses: actions/upload-artifact@v3
+        with:
+          name: d1-analysis-reports
+          path: reports/
+          retention-days: 90
+      
+      - name: Send summary
+        if: github.event_name == 'schedule'
+        run: |
+          echo "📊 Weekly D1 Analysis Complete" > summary.txt
+          echo "Date: $(date)" >> summary.txt
+          echo "Schools analyzed: 27" >> summary.txt
+          python -m d1_analyzer summary >> summary.txt
+          cat summary.txt
