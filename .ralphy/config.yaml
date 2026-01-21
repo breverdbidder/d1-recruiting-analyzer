@@ -1,0 +1,96 @@
+# =============================================================================
+# RALPHY PROJECT CONFIGURATION - Life OS
+# =============================================================================
+# ADHD-optimized productivity & family coordination system
+# =============================================================================
+
+project:
+  name: "Life OS"
+  description: "Shapira Family Real-Time Life Monitoring & Tracking Ecosystem"
+  language: "TypeScript"
+  framework: "Next.js + React"
+  version: "2.0.0"
+
+repository:
+  owner: "breverdbidder"
+  name: "life-os"
+  default_branch: "main"
+  
+commands:
+  test: "npm test"
+  lint: "npm run lint"
+  build: "npm run build"
+  dev: "npm run dev"
+  
+checks:
+  - "npm run lint"
+
+rules:
+  # Code style
+  - "Use TypeScript strict mode"
+  - "Follow Next.js App Router conventions"
+  - "Use Tailwind CSS for styling"
+  - "Mobile-first responsive design"
+  
+  # Life OS specific
+  - "ADHD tracking: detect task abandonment patterns"
+  - "Dual timezone support: FL (America/New_York) and IL (Asia/Jerusalem)"
+  - "Michael swimming data: SwimCloud ID 3250085"
+  - "Respect Shabbat: no notifications Friday sunset to Saturday havdalah"
+  - "Kosher meal planning considerations"
+  
+  # Architecture
+  - "Supabase for persistence"
+  - "Real-time updates via Supabase subscriptions"
+  - "WhatsApp integration for family sharing"
+  
+  # Privacy
+  - "No external analytics"
+  - "Family data stays in Supabase only"
+
+boundaries:
+  never_touch:
+    - "*.env*"
+    - "*.lock"
+    - "node_modules/**"
+    - ".next/**"
+    
+  caution:
+    - "supabase/migrations/**"
+    - "src/auth/**"
+
+llm_config:
+  default_model: "claude-sonnet-4-5-20250929"
+  fallback_model: "gemini-2.5-flash"
+  max_tokens: 4096
+  temperature: 0.1
+  
+execution:
+  max_iterations: 50
+  timeout_minutes: 60
+  retry_attempts: 3
+  
+commit:
+  prefix: "🧠"
+  format: "{prefix} {type}: {description}"
+  types:
+    - "feat"
+    - "fix"
+    - "refactor"
+    - "test"
+    - "docs"
+    - "chore"
+
+integrations:
+  supabase:
+    tables:
+      - "sprint_tasks"
+      - "insights"
+      - "activities"
+      - "swim_times"
+      - "family_events"
+    
+  github:
+    auto_commit: true
+    auto_push: true
+    create_prs: false
